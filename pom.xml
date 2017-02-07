@@ -12,6 +12,7 @@
 			<url>http://www.gnu.org/licenses/gpl-3.0.en.html</url>
 		</license>
 	</licenses>
+
 	<developers>
 		<developer>
 			<id>kevin</id>
@@ -81,5 +82,11 @@
 		</profile>
 	</profiles>
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk15on -->
+		<dependency>
+			<groupId>org.bouncycastle</groupId>
+			<artifactId>bcprov-jdk15on</artifactId>
+			<version>1.52</version>
+		</dependency>
 	</dependencies>  
 </project>
